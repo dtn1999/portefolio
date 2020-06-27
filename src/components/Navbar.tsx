@@ -120,7 +120,7 @@ export const Navbar = () => {
               Portfolio
             </Typography>
             <Typography variant="h5" style={{ color: "red" }}>
-              ( currently in developpment !!!!! )
+              {"<-- currently in developpment -->"}
             </Typography>
             <MobileRightMenuSlider
               anchor="right"
