@@ -1,6 +1,7 @@
 {
     "name": "portfolio",
     "version": "0.1.0",
+    "homepage": "https://danyls-ngongang.netlify.app",
     "private": true,
     "dependencies": {
         "@blackbox-vision/react-particles": "^1.2.0",
