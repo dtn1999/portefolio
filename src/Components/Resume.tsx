@@ -17,7 +17,7 @@ const Resume:React.FC<Props> = React.memo(({data})=>{
        </p>
       <p>{education.description}</p></div>
     ))
-  ),[])
+  ),[data.education])
 
   const renderWorks = React.useCallback(()=>(
     data.work.map((work)=>(
@@ -26,7 +26,7 @@ const Resume:React.FC<Props> = React.memo(({data})=>{
           <p>{work.description}</p>
       </div>
     ))
-  ),[])
+  ),[data.work])
 
   const renderSkills = React.useCallback(()=>(
     data.skills.map((skls)=>{
@@ -37,7 +37,7 @@ const Resume:React.FC<Props> = React.memo(({data})=>{
         </li>
       )
     })
-  ),[])
+  ),[data.skills])
 
   return (
     <section id="resume">

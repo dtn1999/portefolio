@@ -6,12 +6,6 @@ type Props = {
 }
 
 const Portfolio:React.FC<Props>= React.memo(({data})=>{
-  const [projects, setPojects] = React.useState<any>();
-  React.useEffect(()=>{
-    setPojects(data?.projects)
-  },[data])
-
-
 
   const renderProjects = React.useCallback(()=>(
     data.projects.map(function (projects) {
@@ -33,7 +27,7 @@ const Portfolio:React.FC<Props>= React.memo(({data})=>{
         </div>
       )
     })
-  ),[])
+  ),[data.projects])
 
   return (
     <section id="portfolio">

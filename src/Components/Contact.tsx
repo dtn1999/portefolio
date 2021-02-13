@@ -11,7 +11,6 @@ type Props = {
 const Contact:React.FC<Props> = React.memo(({data})=>{
 
    const handleChange = ()=>{};
-   const message = "";
 
    return (
       <section id="contact">

@@ -1,7 +1,6 @@
 import React  from 'react';
 import {Main} from '../types'
-import ParticlesBg  from "particles-bg";
-import ParticlesJs from './Particles';
+
 
 type Props = {
    data : Main 
@@ -18,7 +17,7 @@ const Header:React.FC<Props> = React.memo(({data})=>{
       data.social.map((network)=>(
            <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
       ))
-   ),[])
+   ),[data.social])
    return(
       <header id="home">
       {/* <ParticlesBg type="circle" bg={true} /> */}

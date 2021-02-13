@@ -1,7 +1,7 @@
 import React from 'react';
 import {Main} from '../types'
 type Props = {
-  data :Main | undefined
+  data :Main
 }
 
 const Footer:React.FC<Props>= React.memo(({data})=>{
