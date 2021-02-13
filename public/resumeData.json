@@ -1,9 +1,9 @@
 {
     "main": {
-        "name": "I'm Danyls Ngongang.",
-        "description": "I'm a computer science student  based in Aachen in Germany, currently i'am a bachelor student at the RWTH Aachen university. And also a junior web developer",
+        "name": "Danyls Ngongang.",
+        "description": "I'm a computer science student  based in Aachen in Germany, currently i'am a bachelor student at the RWTH Aachen university. And a passionate web developer",
         "image": "profilepic.jpg",
-        "bio": "I am an athlete at heart, with an entrepreneurial spirit and a passion for coding.  Arriving in Germany since 2018, I am currently a 2nd year student in computer science. In addition to my studies I use my free time to learn new technology independently. Thanks to this autonomy I was able to get a job as a working student during my first semester at university and to gain knowledge in data science.  However my love is not in data science but in web and mobile development.",
+        "bio": "I am an basketball player at heart, with an entrepreneurial spirit and a passion for coding.  Arriving in Germany since 2018, I am currently a 2nd year student in computer science. In addition to my studies I use my free time to learn new technology by my own. Thanks to this autonomy I was able to get a job as a working student during my first semester at university and to gain knowledge in data science.  However my love is not in data science but in web and mobile development.",
         "contactmessage": "Have a project for me? Think I'd be a good fit for your team? I'd love to hear from you, give me a shout by email or by using the form below if you'd like to get in contact with me.",
         "email": "tchekamboudanyls@gmail.com",
         "phone": "(+49)1772186832",
@@ -111,7 +111,7 @@
                 "level": "55%"
             },
             {
-                "name": "REST",
+                "name": "REST SERVICE",
                 "level": "75%"
             },
             {

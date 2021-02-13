@@ -15,7 +15,7 @@ const Header:React.FC<Props> = React.memo(({data})=>{
    
    const renderNetworks = React.useCallback(()=>(
       data.social.map((network)=>(
-           <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
+           <li key={network.name}><a href={network.url} target="blanck"><i className={network.className}></i></a></li>
       ))
    ),[data.social])
    return(
@@ -27,7 +27,7 @@ const Header:React.FC<Props> = React.memo(({data})=>{
 
          <ul id="nav" className="nav">
             <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
-            <li><a className="smoothscroll" href="#about">About</a></li>
+            <li><a className="smoothscroll" href="#about" >About</a></li>
 	         <li><a className="smoothscroll" href="#resume">Resume</a></li>
             <li><a className="smoothscroll" href="#portfolio">Works</a></li>
             <li><a className="smoothscroll" href="#contact">Contact</a></li>
@@ -37,8 +37,16 @@ const Header:React.FC<Props> = React.memo(({data})=>{
       <div className="row banner">
       
          <div className="banner-text">
-            <h1 className="responsive-headline">{data.name}</h1>
+            <h1 className="responsive-headline">I'm {data.name}</h1>
             <h3>{data.description}.</h3>
+            
+            <br />
+            <div>
+                  <a href="#contact" id="open-for-job" className="submit">Open For Job</a>
+                     <span id="image-loader">
+                        <img alt="" src="images/loader.gif" />
+                     </span>
+                  </div>
             <hr />
             <ul className="social">
                {renderNetworks()}
