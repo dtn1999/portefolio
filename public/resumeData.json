@@ -1,0 +1,141 @@
+{
+    "main": {
+        "name": "I'm Danyls Ngongang.",
+        "description": "I'm a computer science student  based in Aachen in Germany, currently i'am a bachelor student at the RWTH Aachen university. And also a junior web developer",
+        "image": "profilepic.jpg",
+        "bio": "I am an athlete at heart, with an entrepreneurial spirit and a passion for coding.  Arriving in Germany since 2018, I am currently a 2nd year student in computer science. In addition to my studies I use my free time to learn new technology independently. Thanks to this autonomy I was able to get a job as a working student during my first semester at university and to gain knowledge in data science.  However my love is not in data science but in web and mobile development.",
+        "contactmessage": "Have a project for me? Think I'd be a good fit for your team? I'd love to hear from you, give me a shout by email or by using the form below if you'd like to get in contact with me.",
+        "email": "tchekamboudanyls@gmail.com",
+        "phone": "(+49)1772186832",
+        "github": "https://github.com/nordicgiant2/react-nice-resume",
+        "project": "https://github.com/nordicgiant2/react-nice-resume",
+        "address": {
+            "street": "cockerillpark Straße 68",
+            "city": "Aachen",
+            "state": "Germany",
+            "zip": "52080"
+        },
+        "website": "https://danyls-ngongang.netlify.app",
+        "resumedownload": "https://drive.google.com/drive/folders/1B92ki8ke6S_ngEl6zhXAJCwLBzfENVhf?usp=sharing",
+        "social": [{
+                "name": "twitter",
+                "url": "https://twitter.com/DanylsD?s=09",
+                "className": "fa fa-twitter"
+            },
+            {
+                "name": "linkedin",
+                "url": "https://www.linkedin.com/in/danyls-ngongang-b811b11b3/",
+                "className": "fa fa-linkedin"
+            },
+            {
+                "name": "instagram",
+                "url": "http://instagram.com/danyls_tn",
+                "className": "fa fa-instagram"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/dtn1999",
+                "className": "fa fa-github"
+            }
+        ],
+        "profilepic": "../../public/images/me/me1.png"
+    },
+    "resume": {
+        "skillmessage": "Here are some technologies that i use or have already use",
+        "education": [{
+            "school": "RWTH Aachen University",
+            "degree": "Bachelor computer science",
+            "graduated": "expected January 2022",
+            "description": "Apres etre arrive en allemangne je voulais absolument etudier dans une universite d elite pour pouvoir avoir la chance et l'opportinuite d'etudier avec certaines des meilleures tete d'allemagne et apres plusieurs recherche je suis tombe sur la RWTH qui est l'une des universite d'elite d allemagne. Je suis Actuellement au 3eme semestre avec pour focus software engeneering. "
+        }],
+        "work": [{
+            "company": "ISEA Aachen",
+            "title": "Working Student",
+            "years": "March 2019 - Oktober 2020",
+            "description": "Working at ISEA allowed me to understand and see how work in a company is organized and structured. During my stay at ISEA I mainly worked as a working student.During my work at ISEA I was mainly in charge of extracting the data from the measurements on the batteries and then representing these data in order to facilitate their exploitation. I really enjoyed my work at ISEA because of its diversity. For example, one of the last tasks I had to do was to build a neural network, an LSTM to be more precise, in order to discover the physical factors that most impact the aging of Lithium-ion Batteries. And so I was able to acquire basic knowledge in Data science and artificial intelligence.During my work there I used Matlab and Python for all my tasks."
+        }],
+        "skills": [{
+                "name": "Python",
+                "level": "50%"
+            },
+            {
+                "name": "Javascript",
+                "level": "89%"
+            },
+            {
+                "name": "Typescript",
+                "level": "85%"
+            },
+            {
+                "name": "ReactJs",
+                "level": "70%"
+            },
+            {
+                "name": "React Native / Expo",
+                "level": "70%"
+            },
+            {
+                "name": "Angular",
+                "level": "70%"
+            },
+            {
+                "name": "Node Js",
+                "level": "60%"
+            },
+            {
+                "name": "JAVA",
+                "level": "55%"
+            },
+            {
+                "name": "SpringBoot",
+                "level": "40%"
+            },
+            {
+                "name": "PHP",
+                "level": "20%"
+            },
+            {
+                "name": "SQL",
+                "level": "80%"
+            },
+            {
+                "name": "HTML5",
+                "level": "95%"
+            },
+            {
+                "name": "CSS",
+                "level": "60%"
+            },
+            {
+                "name": "Bootstrap",
+                "level": "55%"
+            },
+            {
+                "name": "REST",
+                "level": "75%"
+            },
+            {
+                "name": "GRAPHQL",
+                "level": "60%"
+            },
+            {
+                "name": "GIT",
+                "level": "65%"
+            },
+            {
+                "name": "MATLAB",
+                "level": "60%"
+            }
+        ]
+    },
+    "portfolio": {
+        "projects": [{
+                "title": "Restopres",
+                "category": "Food delivery Service",
+                "image": "canadian-wanderlust.jpg",
+                "url": "https://www.restopres.com"
+            }
+
+        ]
+    }
+}
